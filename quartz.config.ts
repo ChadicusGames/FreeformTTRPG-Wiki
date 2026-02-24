@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl:"ChadicusGames.github.io/FreeformTTRPG-Wiki" ,
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "Vocab"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

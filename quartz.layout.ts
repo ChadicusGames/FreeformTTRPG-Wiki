@@ -63,8 +63,8 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
-  title: "Wiki Links",
-}),
+      title: "Wiki Links",
+    }),
   ],
   right: [],
 }
