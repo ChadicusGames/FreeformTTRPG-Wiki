@@ -1,0 +1,17 @@
+---
+tags:
+  - excludeFromGraph
+---
+
+views:
+  - type: list
+    name: Vocabulary to Know
+    filters:
+      and:
+        - file.hasTag("Vocab")
+        - not:
+            - file.name == "Vocab Entry"
+    sort:
+      - property: file.name
+        direction: ASC
+    markers: none

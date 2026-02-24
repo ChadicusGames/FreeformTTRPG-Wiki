@@ -1,2 +1,6 @@
-#Vocab
+---
+tags:
+  - vocab
+  - excludeFromGraph
+---
 

@@ -1,5 +1,5 @@
 ---
-title: Home
+title: 1.0 Start Here
 tags:
   - excludeFromGraph
 ---
