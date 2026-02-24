@@ -1,3 +1,8 @@
+---
+title: Home
+tags:
+  - excludeFromGraph
+---
 # Freeform TTRPG
 _A rules light TTRPG meant to adapt to the players strengths at the table._
 
