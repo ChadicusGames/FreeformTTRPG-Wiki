@@ -1,3 +1,171 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
+
+:root {
+  --pg-accent:     #ffa500;
+  --pg-accent-dim: rgba(255, 165, 0, 0.12);
+  --pg-black:      #0d0d0d;
+  --pg-gray-1:     #2a2a2a;
+  --pg-gray-2:     #6b6b6b;
+  --pg-rule:       #dedede;
+
+  --bodyFont:      'Montserrat', sans-serif !important;
+  --headerFont:    'Montserrat', sans-serif !important;
+  --codeFont:      'Courier New', monospace !important;
+  --dark:          #0d0d0d;
+  --light:         #ffffff;
+  --lightgray:     #dedede;
+  --gray:          #6b6b6b;
+  --darkgray:      #2a2a2a;
+  --secondary:     #ffa500;
+  --tertiary:      #cc8400;
+  --highlight:     rgba(255, 165, 0, 0.12);
+}
+
+/* ── BODY ───────────────────────────────────── */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── HEADINGS ───────────────────────────────── */
+h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1.15;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--gray);
+}
+
+h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gray);
+}
+
+h4 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+/* ── HORIZONTAL RULE ────────────────────────── */
+hr {
+  border: none;
+  border-top: 2px solid var(--pg-accent);
+  opacity: 0.6;
+  margin: 2.5rem 0;
+}
+
+/* ── BLOCKQUOTE ─────────────────────────────── */
+blockquote {
+  border-left: 3px solid var(--pg-accent);
+  background: var(--pg-accent-dim);
+  border-radius: 0 6px 6px 0;
+  padding: 0.5rem 1.1rem;
+  font-style: italic;
+  font-weight: 300;
+  color: var(--gray);
+}
+
+/* ── LINKS ──────────────────────────────────── */
+a {
+  color: var(--pg-accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 165, 0, 0.35);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+a:hover {
+  color: #cc8400;
+  border-bottom-color: #cc8400;
+}
+
+/* ── TABLES ─────────────────────────────────── */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  font-weight: 300;
+}
+
+th {
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gray);
+  padding: 0.5rem 0.75rem;
+  border-bottom: 2px solid var(--pg-accent);
+  background: none;
+}
+
+td {
+  padding: 0.45rem 0.75rem;
+  border-bottom: 1px solid var(--lightgray);
+  vertical-align: top;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* ── CODE ───────────────────────────────────── */
+pre {
+  border-left: 3px solid var(--pg-accent) !important;
+  border-radius: 0 !important;
+}
+
+code {
+  font-family: 'Courier New', monospace;
+  font-size: 0.82em;
+  border-radius: 0;
+}
+
+/* ── TAGS ───────────────────────────────────── */
+.tag-link {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: var(--pg-accent-dim);
+  color: var(--pg-accent) !important;
+  border: 1px solid rgba(255, 165, 0, 0.3);
+  border-radius: 0;
+  border-bottom: none !important;
+  padding: 0.1em 0.45em;
+}
+
+.tag-link:hover {
+  background: rgba(255, 165, 0, 0.22);
+}
+
+/* ── SIDEBAR ────────────────────────────────── */
+.sidebar {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.78rem;
+}
+
+.toc-content a {
+  font-size: 0.78rem;
+  font-weight: 400;
+  border-bottom: none !important;
+  color: var(--darkgray);
+}
+
+.toc-content a:hover {
+  color: var(--pg-accent);
+}
