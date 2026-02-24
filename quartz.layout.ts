@@ -38,9 +38,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer({
-      title: "Wiki Links",
-    }),,
+    ,
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
