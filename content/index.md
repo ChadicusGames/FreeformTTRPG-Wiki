@@ -28,6 +28,12 @@ Your next step is  [[2.1_Character Creation]]!
 ---
 ### GMs Get Started Here
 
+Before playing the first session there is some small prep you should make. Unlike other TTRPG's this should not take a month of planning and world building. 
+
+Actually this game plays better when things aren't too over anaylized, it allows flexibilty in the story so you and your players can shape the world together. To get started you will need an idea of the world you want to play in, and a conflict that your players would enjoy exploring.
+
+See [[3.1_World Building]] for the next steps!
+
 ---
 
 
