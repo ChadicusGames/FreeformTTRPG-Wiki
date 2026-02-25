@@ -1,0 +1,40 @@
+---
+title: 1.0 Start Here
+tags:
+  - excludeFromGraph
+---
+# Freeform TTRPG
+_A rules light TTRPG meant to adapt to the players strengths at the table._
+
+---
+## Core Idea
+
+Freeform is a collaborative rules-light table top game meant to be improvised on the fly. Meaning no over prepping, no session zero, no rules to bog it down, and especially no railroading. A great place for new players and GMs who want to build glorious narratives.
+
+The game is played with 6 sided dice referred to as d6. The are used in a series of opposition rolls between the players and the GM in order to make more dramatic stories and gameplay.
+
+Players have a dice pool determined by their characters skills, while the GM has a dice pool built by the environment and enemies that lie within. 
+
+There is not set world or universe, this is merely a book of mechanics to build out your own world space at the table. 
+
+---
+### Players Get Started Here
+In this game you will be working collaboratively with the GM to create the world-space and narrative.  You do this with your Character using their actions, backgrounds, and goals. 
+
+At the start of play the GM will give you an opening introduction to the world they are creating, and some potential limitations that world will have on your character. This will be a bare bones world space, it is expected that you contribute to creating locations and lore that your character knows, within reason of course. 
+
+Your next step is  [[2.1_Character Creation]]!
+
+---
+### GMs Get Started Here
+
+Before playing the first session there is some small prep you should make. Unlike other TTRPG's this should not take a month of planning and world building. 
+
+Actually this game plays better when things aren't too over anaylized, it allows flexibilty in the story so you and your players can shape the world together. To get started you will need an idea of the world you want to play in, and a conflict that your players would enjoy exploring.
+
+See [[3.1_World Building]] for the next steps!
+
+---
+
+
+
